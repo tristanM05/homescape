@@ -22,11 +22,24 @@ body{
 #main{
 
 }
+#navigation{
+    display: flex;
+    margin-left: auto;
+}
+#ulNav{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+.navbarItem{
+    margin: 10px;
+}
+
 .btnReserver{
     text-decoration: none;
     background-color: #ffffff;
     color: #000000;
-    margin-top: 20px !important;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -40,9 +53,6 @@ body{
     text-decoration: none;
 }
 
-.nav-item{
-    margin: 10px;
-}
 #section1{
     display: flex;
     margin: 20px;
@@ -56,8 +66,8 @@ body{
 }
 #textIntro{
     margin: 50px;
-    background-color: #8f8f8f9d;
-    padding: 20px;
+    background-color: #8f8f8fe1;
+    padding: 50px;
     border-radius: 20px;
 }
 h1{
@@ -138,6 +148,9 @@ a:hover{
 }
 
 @media(max-width: 768px){
+    .navHome{
+        display: block;
+    }
     #section1{
         display: block;
         margin: 0;
@@ -152,6 +165,7 @@ a:hover{
     }
     #textIntro{
         margin: 10px;
+        padding: 20px;
     }
     /* #section3{
         background-image: none;
