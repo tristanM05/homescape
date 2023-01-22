@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "ubuntu";
+    src: url(../font/ubuntu/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: "stencilia2";
+    src: url(../font/Stencilia-Bold.ttf);
+}
+@font-face {
+    font-family: "avenir";
+    src: url(../font/Avenir\ Book.ttf);
+}
+
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: ubuntu;
+}
+
+#main{
+
+}
+.btnReserver{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 20px !important;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.btnReserver:hover{
+    background-color: #000000;
+    border: #ffffff 1px solid;; 
+    color: #ffffff;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 10px;
+}
+#section1{
+    display: flex;
+    margin: 20px;
+    background-image: url(../media/fond.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#logo{
+    width: 30%;
+    height: 30%;
+}
+#textIntro{
+    margin: 50px;
+    background-color: #8f8f8f9d;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+hr{
+    
+    border: 1px solid #ffffff;
+}
+#textIntro p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.sectionBlanc{
+    background-color: #ffffff8f;
+}
+.divSection{
+    padding: 50px;
+}
+.titleSection{
+    color: #000000;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.textSection{
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.titleSectionNoir{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.textSectionNoir{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.imgSection{
+    display: flex;
+    justify-content: center;
+}
+.imgSection img{
+    width: 25%;
+    height: 25%;
+    margin: 30px;
+}
+#section3{
+    background-image: url(../media/fond.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#section4{
+    background-image: url(../media/fond.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#section4 .divSection{
+    text-align: end;
+    padding: 150px;
+}
+#prix{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 20px;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media(max-width: 768px){
+    #section1{
+        display: block;
+        margin: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #logo{
+        width: 70%;
+        height: 70%;
+        margin-left: 60px;
+    }
+    #textIntro{
+        margin: 10px;
+    }
+    /* #section3{
+        background-image: none;
+    } */
+    #section4{
+        background-image: none;
+    }
+    #section4 .divSection{
+        text-align: start;
+        padding: 80px;
+    }
+    #prix{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .divSection{
+        padding: 15px;
+    }
+    .imgSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgSection img{
+        width: 90%;
+        height: 90%;
+        margin: 20px;
+    }
+    .titleSection{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .textSection{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .titleSectionNoir{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .textSectionNoir{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    #section4 .divSection{
+        text-align: center;
+        padding: 0;
+    }
+}

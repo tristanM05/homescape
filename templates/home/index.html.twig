@@ -1,0 +1,129 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home&scape{% endblock %}
+
+{% block body %}
+<div id="main" class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark navHome">
+        <div id="navBrand">
+            <a class="navbar-brand" href="#"><img id="logoMenu" src="" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#section4" class="btnReserver">Reserver</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/home.scape41/?fbclid=IwAR1L_vagpIeilO0hl6fQwpoPrCAdpmCAnQXfTARltY177iknQgSLnkdYPzc" target="blank" class="text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/profile.php?id=100089081929564" target="blank" class="text-white"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="section1">
+        <img src="/media/logoLight.png" alt="" class="img-fluid" id="logo">
+        <div id="textIntro">
+            <h1>Home&scape, qui sommes-nous ?</h1>
+            <hr>
+            <p>
+                Dans le monde de l'escape game depuis plusieurs années, nous avons décidé de
+                nous spécialiser en créant Home&scape dans l'escape game à domicile avec un
+                premier concept innovant et festif l'escape game apéro: l'apéri'box.
+            </p>
+        </div>
+    </div>
+    <div id="section2" class="sectionBlanc">
+        <div class="divSection">
+            <p class="titleSection">L'apéri'box c'est quoi ?</p>
+            <p class="textSection">
+                Une histoire, des énigmes et tout pour faire un super apéro à la maison ; voilà ce
+                qu'est l'apéri'box !
+                De quoi boire et manger local, mais aussi de quoi se creuser la tête grâce aux
+                différentes énigmes présentes dans la box. Tout l'apéritif est bloqué dans
+                différentes boîtes.
+                Vous devrez donc résoudre les énigmes pour pouvoir débloquer l'apéritif
+                progressivement.
+                Pas besoin d'intervenir pendant le jeu, vous avez un accès libre aux indices et aux
+                solutions.
+                On vous enlève le stress du chrono, vous avancez à votre rythme.
+            </p>
+
+            <div class="imgSection">
+                <img src="/media/aperibox1.jpg" alt="">
+                <img src="/media/aperibox3.jpg" alt="">
+                <img src="/media/aperibox4.jpg" alt="">
+            </div>
+
+            <p class="titleSection">Où ?</p>
+            <p class="textSection">
+                Dans un parc, entre amis, en famille, entre collègues, pour les enterrements de vie
+                de célibataire ou simplement pour vous amuser chez vous.
+            </p>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="divSection">
+            <p class="titleSectionNoir">Que trouve-t-on dans l'apéri'box ?</p>
+            <p class="textSectionNoir">
+                Tout est défini ensemble à la réservation, des formules entièrement sans alcool
+                (mais toujours avec du local), des formules végétariennes, bref nous sommes
+                attentifs à vos souhaits. Les quantités sont adaptées en fonction du nombre de
+                participants.
+            </p>
+
+            <div class="imgSection">
+                <img src="/media/aperibox2.jpg" alt="">
+                <img src="/media/aperibox6.jpg" alt="">
+                <img src="/media/aperibox5.jpg" alt="">
+            </div>
+
+            <p class="titleSectionNoir">Comment récupérer l'apéri'box ?</p>
+            <p class="textSectionNoir">
+                Venez récupérer l'apéri'box chez l'un de nos partenaires à Blois, Chaumont sur
+                Loire. Nous pouvons aussi livrer (prévoir un supplément) selon votre lieu
+                d'habitation.
+            </p>
+        </div>
+    </div>
+    <div class="sectionBlanc">
+        <div class="divSection">
+            <p class="titleSection">Quand rendre votre apéri'box ?</p>
+            <p class="textSection">
+                Pour une activité apéri'box le midi, retour de la box dans l'après-midi, pour une
+                activité le soir, retour de la box le lendemain matin, chez l'un de nos partenaires
+                (selon les modalités de retour définis ensemble).
+            </p>
+            <div class="imgSection">
+                <img src="/media/aperibox7.jpg" alt="">
+                <img src="/media/aperibox8.jpg" alt="">
+                <img src="/media/aperibox9.jpg" alt="">
+            </div>
+            <p class="titleSection text-center">Pour quel tarif ?</p>
+            <p class="textSection" id="prix">
+                - Pour 3 joueurs : 30 euros par personne <br>
+                - Pour 4 joueurs : 28 euros par personne <br>
+                - Pour 5 joueurs : 26 euros par personne <br>
+                - Pour 6 joueurs : 24 euros par personne <br>
+            </p>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="divSection">
+            <p class="titleSectionNoir">Pour réserver:</p>
+            <p class="textSectionNoir">
+                Par téléphone au 07 80 97 41 66 <br>
+                Par mail à homescape41@outlook.fr
+            </p>
+            <p class="textSectionNoir">Home&scape partenaire de <a href="https://daedalusescapegame.com"
+                    target="blank">Daedalus escape game</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
